@@ -1,0 +1,5 @@
+CREATE TABLE images (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    size INT NOT NULL,
+    address VARCHAR(255) NOT NULL UNIQUE
+)
